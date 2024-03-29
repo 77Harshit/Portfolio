@@ -1,0 +1,127 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+/* navbar section */
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: #2a3a6d;
+
+    z-index: 10;
+    
+  }
+  
+  li {
+    display: inline;
+
+  }
+  ul {
+    list-style: none;
+    padding: 10px;
+  }
+ 
+  #sec1:hover {
+    color: #fbc02d;
+    text-decoration: underline solid  #fbc02d;
+    font-style: italic;
+  }
+ #sec1{
+    text-decoration: none; 
+    color:wheat;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    font-size: 20px;
+
+ } 
+ /* section home */
+ .home{
+    background-color:   #2a3a6d;
+ }
+ #prof{
+    color: aqua;
+    font-weight: bold;
+ }
+ #name{
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ .btn-primary{
+    border-radius: 30%;
+ }
+/* section about */
+.about{
+   background-color:  #3e4e88;
+   margin: 0%;
+   padding: 0%;
+}
+/* section skills */
+.skills{
+   background-color:  #2a3a6d;
+}
+.skills2{
+    background-color: #3e4e88;
+     color: white;
+     border-radius: 5%;
+}
+/* section work */
+ .work{
+   background-color: #3e4e88;
+   padding-right: 5%;
+   
+}
+.project-card{
+   padding-left: 14%;
+   padding-right: 8%;
+   
+}
+.card-title{
+  
+   font-weight: bold;
+   font-size: 30px;
+}
+.card-text{
+   color: white;
+   font-size: 20px;
+}
+.card{
+   
+   transition: all 6s, transform .7s, box-shadow .4s;
+}
+.card:hover{
+   transform: scale(1.04);
+   box-shadow: 10px 10px  10px #000 inset,10px 10px  10px #000;
+   border: none;
+}
+/* section contact */
+.contact-section {
+   background-color: #2a3a6d;
+   padding: 100px 0;
+}
+
+.section-heading {
+   font-size: 3em;
+   color: white;
+}
+
+.contact-section p {
+   font-size: 1.25em;
+   color: #777;
+}
+/* footer section */
+.footer1{
+   background-color: #3e4e88;
+   margin: 0%;
+   padding: 0%;
+}
+.footer-link:hover{
+   font-style: italic;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

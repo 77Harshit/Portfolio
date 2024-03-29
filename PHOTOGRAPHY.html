@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+			text-align: center;
+			font-family: sans-serif;
+			font-size: 1.2em;
+			padding: 1% 0;
+			background: rgba(229, 214, 207, 0.3);
+			}
+			
+		img {
+			width: 23%;
+			margin: 1%;
+			vertical-align: middle;
+			transition: all 2s, transform .5s, box-shadow .5s;
+			}
+		
+		img:hover {
+			box-shadow: 6px 6px 20px rgba(0,0,0,.6);
+			transform: scale(1.02);
+			}
+			
+		img:focus {
+				box-shadow: 12px 12px 25px rgba(0, 0, 0, .7);
+				width: 47%;
+				transform: none;
+			}
+@media only screen and (max-width:938px) {
+  img{width: 37%;
+  }
+  img:focus{
+    width:60%;
+    margin:0 
+  }
+ }
+
+@media only screen and (max-width:622px){
+  img{
+    width:65%;
+  }
+  img:focus{
+    width:100%;
+    margin:10px 0;
+    
+  }
+  
+}
+    </style>
+</head>
+<body>
+    <h1>Modern Photography</h1>
+
+	<h1>A photo gallery of Outdoor Plants</h1>
+	<p>Click on an image to enlarge it, you can also use the <b>tab key</b> to navigate to the next image.</p>
+	
+		<img tabindex="1" src="https://bit.ly/2P29zkT" alt="Image of Ireland">
+		<img tabindex="2" src="https://www.gardenshop.co.za/wp-content/uploads/2019/06/Rhaphiolepis-indica-Ballerina-2-400x400.jpg" alt="Garden Shop">
+		<img tabindex="3" src="https://www.gardenshop.co.za/wp-content/uploads/2019/06/convolvulus_cneorum-400x400.jpg" alt="Garden Shop">
+		<img tabindex="4" src="https://www.gardenshop.co.za/wp-content/uploads/2019/04/Pandorea-jasminoides-Jazzy-Bellz-4-e1554298686206-400x400.jpg" alt="Garden Shop">
+		<img tabindex="5" src="https://www.gardenshop.co.za/wp-content/uploads/2019/03/2798906992_bd71d0c557_b-e1553516193197-400x400.jpg" alt="Garden Shop">
+		<img tabindex="6" src="https://www.gardenshop.co.za/wp-content/uploads/2019/03/Dietes_grandiflora_or_Fairy_Iris-e1553515366904-400x400.jpg" alt="Garden Shop">
+		<img tabindex="7" src="https://www.gardenshop.co.za/wp-content/uploads/2019/03/Tulbaghia-violacea-e1553695409589-400x400.jpg" alt="Garden Shop">
+		<img tabindex="8" src="https://www.gardenshop.co.za/wp-content/uploads/2019/03/delphinium-larkspur-e1552559039732-400x400.jpg" alt="Garden Shop">
+		<img tabindex="9" src="https://www.gardenshop.co.za/wp-content/uploads/2019/03/osteospermum-400x400.jpg" alt="Garden Shop">
+    
+ 
+</body>
+</html>
